@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+    margin:0;
+    padding:0;
+    border:none;
+    list-style:none;
+    color: #000;
+}
+body{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    font:1em  "microsoft yahei";
+    height: 100%;
+
+}
+a{
+    color: #949494;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.mymsg{
+    width: 100%;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+/*ͷ����ʽ*/
+header{
+    width: 100%;
+    position:fixed;
+    font-size: 2em;
+    z-index:10;
+    top:0;
+    background-color:#ffffff;
+}
+header a{
+    color: #30B2A1;
+}
+#header_nav{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+#header_nav ul li a img{
+    width: 100%;
+}
+#header_nav ul{
+    margin: 0 auto;
+}
+#header_nav li{
+    float: left;
+    display:inline;
+}
+#header_nav li:first-child{
+    /*margin-left: 5%;*/
+}
+#header_nav li:last-child{
+    float: right;
+    /*margin-right: 5%;*/
+}
+/*�Ų���ʽ*/
+html, body{
+    height:100%;
+}
+#container {
+    min-height:100%; /*ʹ���ݸ߶Ⱥ�bodyһ��*/
+    margin-bottom:-80px;/*��������80���أ�������footer������Ļ���ӷ�Χ*/
+}
+#content {
+    padding-bottom:150px; /*����ǹؼ���ҳ��߶ȳ�����Ļ���ӷ�Χʱ���������ݺ͵ײ��߶�֮�����*/
+}
+#footer {
+    height:80px;
+}
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    position:fixed;
+    font-size: 2em;
+    z-index:10;
+    bottom:0;
+    background-color:#ffffff;
+}
+#footer_nav{
+    text-align: center;
+    margin: 0 auto;
+}
+#footer_nav ul{
+    margin: 0 auto;
+}
+#footer_nav li{
+    float: left;
+    display:inline;
+}
+#footer_nav li:first-child{
+    /*margin-left: 5%;*/
+}
+#footer_nav li:last-child{
+    float: right;
+    /*margin-right: 5%;*/
+}
+/*������ʽ*/
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#d1{
+    margin-top: 50px;
+}
+/*�Ƽ���ʽ*/
+#tuijian{
+     /*margin-left: 5%;*/
+     /*margin-right: 5%;*/
+ }
+#tuijian a{
+    color: #000000;
+    font-size:1.5em;
+    font-weight: 700;
+}
+#tuijian ul li:first-child{
+    float: left;
+    padding-left: 5px;
+    border-left: 3px solid #30B2A1;
+}
+#tuijian ul li a{
+    color: #000000;
+}
+#tuijian ul li:last-child{
+    float: right;
+}
+/*��������Ƽ���ʽ*/
+.nine{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 100%;
+}
+.nine_1 li a {
+    width:100%;
+}
+.nine_1 li{
+	float: left;
+}
+/***********新的方式重构这段,统一化样式修改，并且使样式更合理化**********/
+.nine_11{
+	width: 100%;
+	height: 100%;
+}
+.nine_11>li{
+	float: left;
+}
+.detail1{
+	float: left;
+}
+.detail1 li:not(:first-child){
+	margin-top: 1.4em;
+}
+/*****************************/
+.detail{
+    position: relative;
+    left: 0.5em;
+
+}
+.detail li:first-child{
+    margin-bottom: 1em;
+}
+.detail li:nth-child(2){
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+}
+.detail li:nth-child(3){
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+}
+.detail li:nth-child(4){
+    margin-top: 2.6em;
+
+}
+.detail li:last-child{
+    margin-bottom: 0.5em;
+
+}
+.detail li:last-child{
+    position: absolute;
+    right: 1.1em;
+    bottom: 2em;
+}
+.detail li:nth-child(4) img{
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 5px;
+}
+.detail li:nth-child(5) img{
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 24px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+

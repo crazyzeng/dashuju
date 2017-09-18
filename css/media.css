@@ -1,0 +1,130 @@
+@media screen and (max-width: 768px) {
+    /*body{*/
+        /*background-color: red;*/
+    /*}*/
+    #tuijian ul li{
+        font-size: 1em;
+    }
+
+    .detail li:first-child{
+        margin-bottom: 0.8em;
+    }
+    .detail li:nth-child(2){
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+    .detail li:nth-child(3){
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+    .detail li:nth-child(4){
+        margin-top: 0;
+
+    }
+    .detail li:last-child{
+        margin-bottom: 0.3em;
+        position: absolute;
+        right: 1.1em;
+        bottom: 2em;
+    }
+    .detail li:first-child{
+        font-size: 1.5em;
+    }
+    .nine{
+        font-size: 1.8em;
+    }
+}
+@media screen and (max-width: 414px){
+    /*body{*/
+        /*background-color: yellow;*/
+    /*}*/
+    #tuijian ul li {
+        font-size: 1em;
+    }
+
+    .detail li:first-child{
+        margin-bottom: 1em;
+    }
+    .detail li:nth-child(2){
+        margin-top: 3em;
+        margin-bottom: 1em;
+    }
+    .detail li:nth-child(3){
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    .detail li:nth-child(4){
+        margin-top: 2em;
+
+    }
+    .detail li:last-child{
+        margin-bottom: 1.5em;
+        position: absolute;
+        right: 1.1em;
+        bottom: 2em;
+    }
+    .detail li:first-child{
+        font-size: 1.5em;
+    }
+    .nine{
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 375px){
+    /*body{*/
+        /*background-color: yellowgreen;*/
+    /*}*/
+    #tuijian ul li {
+        font-size: 1em;
+    }
+    .detail li:last-child{
+        position: absolute;
+        right: 0.5em;
+        bottom: 2em;
+    }
+    .detail li:first-child{
+        font-size: 1.5em;
+    }
+    .nine{
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 360px){
+    /*body{*/
+        /*background-color: gray;*/
+    /*}*/
+    #tuijian ul li {
+        font-size: 1em;
+    }
+    .detail li:last-child{
+        position: absolute;
+        right: 0.5em;
+        bottom: 1em;
+    }
+    .detail li:first-child{
+        font-size: 1.5em;
+    }
+    .nine{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 320px) {
+    /*body{*/
+        /*background-color: blue;*/
+    /*}*/
+    #tuijian ul li {
+        font-size: 1em;
+    }
+    .detail li:first-child{
+        font-size: 1.5em;
+    }
+    .nine{
+        font-size: 1em;
+    }
+    .detail li:last-child{
+        position: absolute;
+        right: 0.5em;
+        bottom: 3.6em;
+    }
+}
+

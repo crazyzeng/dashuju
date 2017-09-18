@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="css/responsiveslides.css">
+<link rel="stylesheet" href="css/gai.css" />
+<link rel="stylesheet" type="text/css" href="css/media.css"/>
+<style>
+	
+</style>
+</head>
+
+<body>
+<header>
+	<div id="header_nav" class="mymsg">
+		<ul>
+			<li><a href="JavaScript:void(0)"><img src="images/three.gif" alt=""/></a></li>
+			<li style="float: none"><a href="#">九派荐书</a></li>
+			<li><a href="JavaScript:void(0)"><img src="images/search.gif" alt=""/></a></li>
+		</ul>
+	</div>
+</header>
+<section>
+<div class="wrap">
+	<ul class="rslides" id="dowebok">
+		<li><a href="JavaScript:void(0)"><img src="images/banner1.gif" alt=""></a></li>
+		<li><a href="JavaScript:void(0)"><img src="images/demo-1-bg.jpg" alt=""></a></li>
+		<li><a href="#JavaScript:void(0)"><img src="images/banner1.gif" alt=""></a></li>
+	</ul>
+</div>
+	<!--推荐-->
+	<div id="tuijian">
+		<ul>
+			<li><a href="JavaScript:void(0)">好书推荐</a></li>
+			<li><a href="JavaScript:void(0)">更多&gt;&gt;</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	<!--三个主要内容-->
+	<div class="nine">
+		<ul class="nine_11 lf">
+			<li><img src="images/nine.gif" alt=""/></li>
+			<li>
+				<ul class="detail1">
+					<li><a href="JavaScript:void(0)" style="color: #000">鹿苑长春</a></li>
+					<li><a href="JavaScript:void(0)">[美国]玛.金.罗林思</a></li>
+					<li><a href="JavaScript:void(0)"><img src="images/star9.gif" alt=""/></a></li>
+				</ul>	
+			</li>
+			<li style="float: right;"><a href="JavaScript:void(0)"><span>10000</span><img src="images/good.gif" alt=""/></a></li>
+		</ul>
+		<div id="">
+			<a href="JavaScript:void(0)"><img src="images/message.gif" alt=""/><span>很少用“动人”来形容文学作品</span></a>
+		</div>
+		<div class="clear"></div>
+	</div><div class="nine">
+	<ul class="nine_1" style="float: left">
+		<li><img src="images/nine_2.gif" alt=""/></li>
+	</ul>
+	<ul class="detail">
+		<li><a href="JavaScript:void(0)" style="color: #000">鹿苑长春</a></li>
+		<li><a href="JavaScript:void(0)">[美国]玛.金。罗林思</a></li>
+		<li><a href="JavaScript:void(0)"><img src="images/star9.gif" alt=""/></a></li>
+		<li><a href="JavaScript:void(0)"><img src="images/message.gif" alt=""/><span>很少用“动人”来形容文学作品</span></a></li>
+		<li><a href="JavaScript:void(0)"><span>10000</span><img src="images/good.gif" alt=""/></a></li>
+	</ul>
+	<div class="clear"></div>
+</div><div class="nine">
+	<ul class="nine_1" style="float: left">
+		<li><img src="images/nine_3.gif" alt=""/></li>
+	</ul>
+	<ul class="detail">
+		<li><a href="JavaScript:void(0)" style="color: #000">鹿苑长春</a></li>
+		<li><a href="JavaScript:void(0)">[美国]玛.金。罗林思</a></li>
+		<li><a href="JavaScript:void(0)"><img src="images/star9.gif" alt=""/></a></li>
+		<li><a href="JavaScript:void(0)"><img src="images/message.gif" alt=""/><span>很少用“动人”来形容文学作品</span></a></li>
+		<li><a href="JavaScript:void(0)"><span>10000</span><img src="images/good.gif" alt=""/></a></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+</section>
+<footer>
+	<div id="footer_nav">
+		<ul>
+			<li><a href="JavaScript:void(0)"><img src="images/index_2.gif" alt=""/></a></li>
+			<li style="float: none"><a href="JavaScript:void(0)"><img src="images/found.gif" alt=""/></a></li>
+			<li><a href="JavaScript:void(0)"><img src="images/mine.jpg" alt=""/></a></li>
+		</ul>
+	</div>
+</footer>
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/responsiveslides.js"></script>
+<script>
+$(function() {
+	var $status = $('#status');
+
+	$('#dowebok').responsiveSlides({
+		pager: true,
+		nav: true,
+		namespace: 'centered-btns',
+		before: function() {
+			$status.html('开始切换');
+		},
+		after: function() {
+			$status.html('切换完成');
+		}
+	});
+});
+</script>
+
+
+</body>
+</html>
